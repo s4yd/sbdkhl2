@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/sbdkhl2/",   // 👈 THIS IS REQUIRED
+  base: "/",   // 👈 THIS IS REQUIRED
 
   server: {
     host: "::",
