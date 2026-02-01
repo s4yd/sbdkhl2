@@ -7,27 +7,27 @@ import { Layout } from "@/components/layout/Layout";
 const featuredEvents = [
   {
     id: 1,
-    title: "Tech Summit 2024",
-    category: "Corporate",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop",
+    title: "",
+    category: "",
+    image: "/public/images/img1.jpg",
   },
   {
     id: 2,
-    title: "Anderson Wedding",
-    category: "Weddings",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop",
+    title: "",
+    category: "",
+    image: "/public/images/img2.jpg",
   },
   {
     id: 3,
-    title: "Summer Music Festival",
-    category: "Entertainment",
-    image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&h=400&fit=crop",
+    title: "",
+    category: "",
+    image: "/public/images/img3.jpg",
   },
   {
     id: 4,
-    title: "Annual Gala Dinner",
-    category: "Corporate",
-    image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=400&fit=crop",
+    title: "",
+    category: "",
+    image: "/public/images/img4.jpg",
   },
 ];
 

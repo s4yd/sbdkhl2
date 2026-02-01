@@ -18,88 +18,88 @@ interface Event {
 const events: Event[] = [
   {
     id: 1,
-    title: "Tech Summit 2024",
-    category: "corporate",
-    description: "A three-day technology conference bringing together industry leaders and innovators.",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop",
+    title: "",
+    category: "",
+    description: "",
+    image: "/public/images/img1.jpg",
   },
   {
     id: 2,
-    title: "Anderson Wedding",
-    category: "weddings",
-    description: "An elegant garden wedding with 200 guests celebrating love and new beginnings.",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop",
+    title: "",
+    category: "",
+    description: "",
+    image: "/public/images/img2.jpg",
   },
   {
     id: 3,
-    title: "Summer Music Festival",
-    category: "entertainment",
-    description: "A weekend music festival featuring international artists and local talent.",
-    image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&h=600&fit=crop",
+    title: "",
+    category: "",
+    description: "",
+    image: "/public/images/img3.jpg",
   },
   {
     id: 4,
-    title: "Annual Gala Dinner",
-    category: "corporate",
-    description: "A prestigious black-tie event honoring outstanding achievements in the industry.",
-    image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=600&fit=crop",
+    title: "",
+    category: "",
+    description: "",
+    image: "/public/images/img4.jpg",
+  },
+  {
+    id: 5,
+    title: "",
+    category: "",
+    description: "",
+    image: "/public/images/img5.jpg",
   },
   {
     id: 6,
-    title: "Product Launch Event",
-    category: "corporate",
-    description: "An immersive product launch experience for a leading tech company.",
-    image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&h=600&fit=crop",
+    title: "3rd Convocation, Khulna Unversity",
+    category: "",
+    description: "",
+    image: "/public/images/img6.jpg",
   },
   {
     id: 7,
-    title: "Jazz Night Concert",
-    category: "entertainment",
-    description: "An intimate evening of live jazz music in a historic venue.",
-    image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&h=600&fit=crop",
+    title: "4th Convocation, Khulna Unversity",
+    category: "",
+    description: "",
+    image: "/public/images/img7.jpg",
   },
   {
     id: 8,
-    title: "Rustic Barn Wedding",
-    category: "weddings",
-    description: "A charming countryside wedding with rustic decor and farm-to-table dining.",
-    image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop",
+    title: "5th Convocation, Khulna Unversity",
+    category: "",
+    description: "",
+    image: "/public/images/img8.jpg",
   },
   {
     id: 9,
-    title: "Corporate Team Building",
-    category: "corporate",
-    description: "An outdoor adventure retreat designed to foster teamwork and collaboration.",
-    image: "https://images.unsplash.com/photo-1528605105345-5344ea20e269?w=800&h=600&fit=crop",
+    title: "6th Convocation, Khulna Unversity",
+    category: "",
+    description: "",
+    image: "/public/images/img9.jpg",
   },
   {
     id: 10,
-    title: "Charity Gala Concert",
-    category: "entertainment",
-    description: "A star-studded benefit concert raising funds for children's education.",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
+    title: "3rd Convocation, KUET",
+    category: "",
+    description: "",
+    image: "/public/images/img10.jpg",
   },
   {
     id: 11,
-    title: "Executive Leadership Summit",
-    category: "corporate",
-    description: "A exclusive gathering of C-suite executives for strategic discussions.",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&h=600&fit=crop",
-  },
-  {
-    id: 12,
-    title: "Winter Wonderland Wedding",
-    category: "weddings",
-    description: "A magical winter wedding with snow-inspired decor and warm ambiance.",
-    image: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=800&h=600&fit=crop",
+    title: "4th Convocation, Islamic University, Kustia",
+    category: "",
+    description: "",
+    image: "/public/images/img11.jpg",
   },
 ];
 
 const categories: { value: Category; label: string }[] = [
-  { value: "all", label: "All Events" },
-  { value: "corporate", label: "Corporate" },
-  { value: "weddings", label: "Weddings" },
-  { value: "entertainment", label: "Entertainment" },
+  { value: "all", label: "" },
+  { value: "corporate", label: "" },
+  { value: "weddings", label: "" },
+  { value: "entertainment", label: "" },
 ];
 
 export default function Gallery() {
@@ -127,7 +127,7 @@ export default function Gallery() {
         </div>
       </section>
 
-      {/* Filter Tabs */}
+      {/* Filter Tabs 
       <section className="py-8 border-b border-border sticky top-16 bg-background z-40">
         <div className="container">
           <div className="flex flex-wrap gap-2">
@@ -148,7 +148,7 @@ export default function Gallery() {
           </div>
         </div>
       </section>
-
+      */}
       {/* Gallery Grid */}
       <section className="section-padding">
         <div className="container">

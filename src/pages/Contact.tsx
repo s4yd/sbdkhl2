@@ -136,7 +136,7 @@ export default function Contact() {
       <section className="section-padding">
         <div className="container">
           <div className="grid lg:grid-cols-3 gap-12">
-            {/* Contact Form */}
+            {/* Contact Form 
             <div className="lg:col-span-2">
               <Card className="border-0 shadow-xl">
                 <CardContent className="p-6 md:p-8">
@@ -191,7 +191,7 @@ export default function Contact() {
                 </CardContent>
               </Card>
             </div>
-
+*/}
             {/* Contact Info Sidebar */}
             <div className="space-y-6">
               {contactInfo.map((item, index) => (

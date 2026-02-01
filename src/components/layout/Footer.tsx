@@ -29,9 +29,6 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent">
-                <span className="font-display text-lg font-bold text-accent-foreground">E</span>
-              </div>
               <span className="font-display text-xl font-semibold">Sundarban Decorator</span>
             </Link>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">

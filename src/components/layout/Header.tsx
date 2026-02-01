@@ -20,9 +20,6 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-            <span className="font-display text-lg font-bold text-primary-foreground">E</span>
-          </div>
           <span className="font-display text-xl font-semibold text-foreground">Sundarban Decorator</span>
         </Link>
 
