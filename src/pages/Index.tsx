@@ -9,25 +9,25 @@ const featuredEvents = [
     id: 1,
     title: "",
     category: "",
-    image: "/public/images/img1.jpg",
+    image: "/images/img1.jpg",
   },
   {
     id: 2,
     title: "",
     category: "",
-    image: "/public/images/img2.jpg",
+    image: "/images/img2.jpg",
   },
   {
     id: 3,
     title: "",
     category: "",
-    image: "/public/images/img3.jpg",
+    image: "/images/img3.jpg",
   },
   {
     id: 4,
     title: "",
     category: "",
-    image: "/public/images/img4.jpg",
+    image: "/images/img4.jpg",
   },
 ];
 
